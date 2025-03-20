@@ -13,7 +13,9 @@ namespace CRUD_Sederhana
     public partial class Form1 : Form
     {
 
-        
+        private string connectionString = "Data Source=MSI\\WILDAN_INDI;" +
+        "Initial Catalog=CRUD_Sederhana;Integrated Security=True";
+
         public Form1()
         {
             InitializeComponent();
@@ -26,7 +28,7 @@ namespace CRUD_Sederhana
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            LoadData();
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)

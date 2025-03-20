@@ -172,6 +172,7 @@
             // 
             // txtNIM
             // 
+            this.txtNIM.AccessibleName = "";
             this.txtNIM.Location = new System.Drawing.Point(146, 30);
             this.txtNIM.Name = "txtNIM";
             this.txtNIM.Size = new System.Drawing.Size(293, 22);
